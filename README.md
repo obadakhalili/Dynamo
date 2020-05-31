@@ -86,7 +86,7 @@ However, you will find a small explination for each method and what it does.
 #include <iostream>
 
 int timesTwo(const int number, const int index) {
-	return number * 2;
+  return number * 2;
 }
 
 int main() {
