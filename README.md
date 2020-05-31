@@ -1,9 +1,9 @@
-
-
 # Dynamo
-C++ dynamic array library that has an API similar to the JavaScript array API.
 
 This library was designed to be similar to the modern high-level scripting languages array API, but specifically similar to the JavaScript array API.
+
+## Code Integration
+If you want to link this library statically into your code, You can watch [this](https://www.youtube.com/watch?v=Wt4dxDNmDA8) video from TheCherno to knowhow.
 
 ## Usage
 ### Declaration
@@ -65,7 +65,7 @@ for (int i = 0; i < arr2.length(); i++) {
   std::cout << arr2[i] << std::endl; // -1, 100, 5, 10, 20, 30, 40
 }
 ```
-**Notes: all the mentioned methods can be chained together.**
+**Note: all the mentioned methods can be chained together.**
 ## Informative Methods
 1. ``.length()`` Returns the arrays size.
 2. ``.includes(item)`` Returns true if the passed item is inside the array, and returns false otherwise.
@@ -76,7 +76,8 @@ for (int i = 0; i < arr2.length(); i++) {
 
 ### Higher-Order Array Methods
 Dynamo has ``.forEach()``, ``.map()``, ``.filter()``, ``.reduce()``,  ``.find()``, and ``.findIndex()`` that works exactly the same way JavaScruipt higher-order methods works with a few exceptions to the ``.reduce()`` method.
-**If you are not aware of the JavaScript higher-order array methods and how they work, Check out this [article]([https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad)). You are missing a lot!.**
+**If you are not aware of the JavaScript higher-order array methods and how they work, Check out this
+[article](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad) You are missing a lot!.**
 
 However, you will find a small explination for each method and what it does.
 #### Examples:
