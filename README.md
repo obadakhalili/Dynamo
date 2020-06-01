@@ -49,7 +49,7 @@ All available member functions for data manipulation are:
 ```c++
 dynamo::Array<int> arr1, arr2;
 
-arr1.push(-1).push(2).push(7).push(5).unshift(-3); // appends -1, 2, 7, and 5 to the end of the array
+arr1.push(-1).push(2).push(7).push(5).unshift(-3); // appends -1, 2, 7, and 5 to the end of the array, and adds -3 to the start of the array
 
 arr1.sort(); // sorts the specified array
 
