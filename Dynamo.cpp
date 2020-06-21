@@ -123,6 +123,7 @@ namespace dynamo {
 		for (int i = startingIndex, j = 0; i < itemsSize + startingIndex; i++, j++) {
 			this->arr[i] = itemsPtr[j];
 		}
+		
 		return *this;
 	}
 	template <typename T>
