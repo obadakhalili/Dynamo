@@ -77,7 +77,7 @@ for (int i = 0; i < arr2.length(); i++) {
 ### Higher-Order Array Methods
 Dynamo has ``.forEach()``, ``.map()``, ``.filter()``, ``.reduce()``,  ``.find()``, and ``.findIndex()`` that works exactly the same way JavaScruipt higher-order methods works with a few exceptions to the ``.reduce()`` method.
 **If you are not aware of the JavaScript higher-order array methods and how they work, Check out this
-[article](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad) You are missing a lot!.**
+[article](https://blog.bitsrc.io/understanding-higher-order-functions-in-javascript-75461803bad). You are missing a lot!.**
 
 However, you will find a small explination for each method and what it does.
 #### Examples:
